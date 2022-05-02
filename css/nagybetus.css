@@ -1,0 +1,36 @@
+@import url('./Fooldal.css');
+
+body
+{
+    font-size: 2em;
+    background-color: white;
+    background-image: none;
+    margin-left: 5px;
+    padding: 1px 1px;
+}
+
+a#nagybetu {display: none;}		
+a#normalbetu {display: block;}
+
+
+
+header, main, footer
+{
+    width: 90%;
+    /*max-width: 1500px;*/
+    border: none;
+    object-fit: contain;
+    padding: 1px 1px;
+    margin-left: 5px;
+    
+}
+
+input
+{
+    max-width: 50%;
+}
+
+textarea
+{
+    max-width: 50%;
+}

@@ -1,0 +1,74 @@
+a.nagybetu {display: block;}		
+a.normalbetu {display: none;}
+
+.rejtett {
+    position: absolute ;
+    left: -9999px;
+}
+.rejtett:focus
+{
+    position: static;
+}
+
+
+a:link
+{
+    color:blue;
+    ;
+}
+a:visited
+{
+    color:darkblue;
+    font-size: 0.5em;
+}
+a:hover
+{
+    color:orangered;
+    font-size: 1.2em;
+}
+#current-link
+{
+    color: crimson;
+}
+
+a.nav-link.disabled
+{
+    color: black;
+}
+
+
+
+pre{
+    overflow: auto;
+    
+}
+
+ h1{
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: bold;
+    /*padding-left: 2%;*/
+    /*color:rgb(118, 118, 244)*/
+
+}
+
+body { 
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family:Arial, Verdana, sans-serif;
+    background-color: white;
+    text-align: left;
+    background-image: url("../Képek/background.jpg");
+    background-size:cover;
+    font-size: 1em;
+}  
+
+
+.main
+    {
+        border-radius: 15px;
+        background-color: white;
+        border: 1px solid;
+        padding: 25px 25px;
+        margin-bottom: 20px;
+    }

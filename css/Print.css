@@ -1,0 +1,30 @@
+
+    a
+    {
+        display: none !important;
+    }
+    body
+    {
+        padding: 2px 2px !important;
+        /*margin: 0px 0px !important;*/
+    }
+
+    main
+    {
+        border: none;
+        margin: 0px 0px;
+    }
+
+    header, footer, video, iframe 
+    {
+        display: none !important;
+    }
+
+    img
+    {
+        max-width: 300px !important;
+    }
+
+    
+   
+

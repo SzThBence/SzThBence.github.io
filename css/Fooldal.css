@@ -1,0 +1,402 @@
+a#nagybetu {
+    display: block;
+}
+
+a#normalbetu {
+    display: none;
+}
+
+.rejtett {
+    position: absolute ;
+    left: -9999px;
+}
+.rejtett:focus
+{
+    position: static;
+}
+
+p {
+    text-align: left;
+}
+
+header {
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+
+header,
+main,
+footer {
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid;
+    padding: 25px 25px;
+    margin-bottom: 20px;
+}
+
+
+main {
+    padding: 25px;
+}
+
+
+footer {
+    margin-bottom: 50px;
+}
+
+
+
+a:link {
+    color: blue;
+    ;
+}
+
+a:visited {
+    color: darkblue;
+    font-size: 0.5em;
+}
+
+a:hover {
+    color: orangered;
+    font-size: 1.2em;
+}
+
+#current-link {
+    color: crimson;
+}
+
+a.nav-link.disabled {
+    color: black;
+}
+
+
+
+pre {
+    overflow: auto;
+
+}
+
+h1::first-letter {
+    font-size: 1.8em;
+    color: red;
+}
+
+.logo {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial, Verdana, sans-serif;
+    background-color: white;
+    text-align: left;
+    background-image: url("../Képek/background.jpg");
+    background-size: cover;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: bold;
+    /*padding-left: 2%;*/
+    /*color:rgb(118, 118, 244)*/
+
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    /*color:blue*/
+
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: bold;
+    /*color:blue*/
+
+}
+
+
+
+
+.nagy-doboz {
+    width: 95%;
+    border: 1px solid;
+    padding: 50px;
+    margin: 20px;
+    background-color: lightgrey;
+    object-fit: contain;
+    display: flex;
+}
+
+.kis-doboz {
+    border: 1px solid;
+    padding: 30px;
+    margin: 10px;
+}
+
+nav.nav {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    border: 1px dotted;
+    background-color: lightgrey;
+    text-align: right;
+}
+
+/*input, button
+    {
+        margin-top: 5px;
+        text-align: right;
+    }*/
+
+.mini-kep {
+    object-fit: contain;
+    width: auto;
+    height: 100px;
+}
+
+.fo-kep {
+    margin: auto;
+    text-align: left;
+    display: grid;
+    padding-right: 200px;
+}
+
+.szoveg {
+    align-self: flex-end;
+    margin-left: 2%;
+}
+
+tr {
+    border: 2px solid;
+}
+
+th {
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: lightgray;
+}
+
+td {
+    text-align: center;
+    border-right: 1px solid;
+}
+
+.alcim {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+iframe {
+    align-items: flex-end;
+
+}
+
+
+
+.Hir-kep {
+    object-fit: contain;
+    text-align: center;
+    /*width: auto;
+        height: 70%;*/
+}
+
+.Nagy-hir {
+    width: 95%;
+    border: 1px solid;
+    padding: 50px 0px;
+    margin: 20px 0px;
+    background-color: lightgrey;
+    object-fit: contain;
+    display: grid;
+
+}
+
+.kepes-hir {
+    width: 90%;
+    border: 1px solid;
+    padding: 50px 0px;
+    padding-left: 5px;
+    margin-left: 2%;
+    background-color: lightgrey;
+    object-fit: contain;
+    display: grid;
+    /* align-items: center;*/
+
+}
+
+.jobb {
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+.showcase {
+    width: 95%;
+    border: 1px solid;
+    padding: 50px 0px;
+    margin: 20px 0px;
+    background-color: lightgrey;
+    object-fit: contain;
+    display: grid;
+}
+
+.kozep {
+    text-align: center;
+}
+
+.description {
+    font-size: 1em;
+    text-align: left;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.regisztracio {
+    width: 95%;
+    border: 1px solid;
+    padding: 50px;
+    margin: 20px;
+    background-color: lightgrey;
+    object-fit: contain;
+    display: grid;
+    overflow: hidden;
+}
+
+.mellekbejelentkezes {
+    width: 95%;
+    border: 1px solid;
+    padding: 50px;
+    margin: 20px;
+    background-color: lightgoldenrodyellow;
+    object-fit: contain;
+    /*display:flexbox;*/
+    overflow: hidden;
+}
+
+#search {
+    margin: auto 5px;
+    margin-right: 0px;
+
+}
+
+.mellekbejelentkezes2 {
+    width: 95%;
+    border: 1px solid;
+    padding: 50px;
+    margin: 20px;
+    background-color: lightgrey;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+
+#uname,
+#pass,
+#email {
+    max-width: 300px;
+    /*align-self: flex-end;*/
+}
+
+#desc {
+    min-height: 200px;
+    max-width: 500px;
+    text-align: start;
+}
+
+#rad1,
+#rad2 {
+    display: inline;
+    width: 10px;
+    height: auto;
+}
+
+#reset {
+    display: flex;
+    color: white;
+    background-color: red;
+    min-width: 25%;
+    max-width: 400px;
+    margin: 2% auto;
+    margin-right: 80%;
+}
+
+#finish {
+    background-color: lightgoldenrodyellow;
+    /*min-width: 200px;*/
+    max-width: 400px;
+    margin: 2% auto;
+    margin-left: 80%;
+}
+
+#bej {
+    background-color: greenyellow;
+    /*min-width: 200px;*/
+    max-width: 100px;
+    margin: 2% auto;
+}
+
+button.ertekeles:hover {
+    background-color: lightgreen;
+}
+
+button.ertekeles:active {
+    background-color: yellow;
+}
+
+button.ertekeles:visited {
+    background-color: yellow;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+button#search-button:active
+{
+    background-color:aqua;
+}
+
+
+.forras {
+    margin-right: 20px;
+}
+
+video {
+    align-self: center;
+}
+
+#ertekeles {
+    align-self: center;
+    text-align: center;
+}
+
+.faded {
+    color: grey;
+}
+
+.table_kep {
+    height: 75px;
+    width: auto;
+}
+
+.center {
+    display: block;
+    margin: auto auto;
+
+}
+
