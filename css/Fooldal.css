@@ -137,6 +137,7 @@ h3 {
 }
 
 .kis-doboz {
+    position: relative;
     border: 1px solid;
     padding: 30px;
     margin: 10px;
@@ -160,9 +161,11 @@ nav.nav {
     }*/
 
 .mini-kep {
-    object-fit: contain;
-    width: auto;
-    height: 100px;
+    object-fit: fill;
+    overflow: hidden hidden;
+    max-width: 130px;
+    max-height: 100px;
+    /*aspect-ratio: 4/3;*/
 }
 
 .fo-kep {
@@ -400,3 +403,9 @@ video {
 
 }
 
+/*.mini-tarto1
+{
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+}*/
