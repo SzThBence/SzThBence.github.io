@@ -52,16 +52,28 @@ pre{
 
 }
 
+
+
+
 body { 
     padding-left: 10%;
     padding-right: 10%;
     font-family:Arial, Verdana, sans-serif;
     background-color: white;
     text-align: left;
-    background-image: url("../Képek/background.jpg");
+    background-image: url("../../Kepek/background.jpg");
     background-size:cover;
     font-size: 1em;
 }  
+
+.header
+{
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid;
+    padding: 25px 25px;
+    margin-bottom: 20px;
+}
 
 
 .main
@@ -71,4 +83,10 @@ body {
         border: 1px solid;
         padding: 25px 25px;
         margin-bottom: 20px;
+    }
+
+.rejtett 
+    {
+        position: absolute ;
+        left: -9999px;
     }
